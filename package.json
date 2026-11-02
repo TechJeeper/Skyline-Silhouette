@@ -1,0 +1,69 @@
+{
+  "name": "skyline-silhouette",
+  "author": "caffeinegamer",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app",
+    "watchface",
+    "skyline",
+    "city",
+    "procedural"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.1.0"
+  },
+  "pebble": {
+    "displayName": "Skyline Silhouette",
+    "uuid": "c4e8a12f-6b39-4d71-9e05-a2f7d81c4b60",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "basalt",
+      "diorite",
+      "flint"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": [
+      "TimeFormat",
+      "LeadingZero",
+      "ShowDate",
+      "ShowCelestial",
+      "ShowStars",
+      "SkyMode",
+      "Density",
+      "CitySeed",
+      "InvertBw"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/menu_icon.png",
+          "menuIcon": true
+        },
+        { "type": "bitmap", "name": "IMAGE_BLDG_00", "file": "images/buildings/bldg_00.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_01", "file": "images/buildings/bldg_01.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_02", "file": "images/buildings/bldg_02.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_03", "file": "images/buildings/bldg_03.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_04", "file": "images/buildings/bldg_04.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_05", "file": "images/buildings/bldg_05.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_06", "file": "images/buildings/bldg_06.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_07", "file": "images/buildings/bldg_07.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_08", "file": "images/buildings/bldg_08.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_09", "file": "images/buildings/bldg_09.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_10", "file": "images/buildings/bldg_10.png" },
+        { "type": "bitmap", "name": "IMAGE_BLDG_11", "file": "images/buildings/bldg_11.png" },
+        { "type": "bitmap", "name": "IMAGE_MOON", "file": "images/sky/moon.png" },
+        { "type": "bitmap", "name": "IMAGE_SUN", "file": "images/sky/sun.png" }
+      ]
+    }
+  }
+}
